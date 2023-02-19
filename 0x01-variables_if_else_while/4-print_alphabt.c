@@ -14,6 +14,7 @@ int main(void)
 		if (alp == 'e' || alp == 'q')
 			continue;
 	}
+	putchar('\n');
 	return (0);
 }
 

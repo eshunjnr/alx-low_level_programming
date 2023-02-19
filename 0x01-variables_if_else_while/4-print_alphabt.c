@@ -10,9 +10,8 @@ int main(void)
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		putchar(alp);
-		if (alp == 'e' || alp == 'q')
-			continue;
+		while (alp != 'e' || alp != 'q')
+			putchar(alp);
 	}
 	putchar('\n');
 	return (0);

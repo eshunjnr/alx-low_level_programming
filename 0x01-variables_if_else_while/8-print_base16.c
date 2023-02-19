@@ -8,12 +8,12 @@ int main(void)
 	char alp;
 	int i;
 
-	for (i = 0; i <= 16; i++)
+	for (i = 0; i <= 9; i++)
+	{
+		putchar(i + '0');
+	}	
 	for (alp = 'a'; alp <= 'f'; alp++)
 	{
-		if (i < 10)
-			putchar(i + '0');
-		else if (i >= 10)
 		putchar(alp);
 	}
 	putchar('\n');

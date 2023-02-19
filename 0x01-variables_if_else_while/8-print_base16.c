@@ -14,7 +14,7 @@ int main(void)
 		if (i >= 10)
 			putchar(alp);
 		else if (i < 10)
-		putchar(i);
+		putchar(i + '0');
 	}
 	putchar('\n');
 	return (0);

@@ -11,10 +11,10 @@ int main(void)
 	for (i = 0; i <= 16; i++)
 	for (alp = 'a'; alp <= 'f'; alp++)
 	{
-		if (i >= 10)
-			putchar(alp);
-		else if (i < 10)
-		putchar(i + '0');
+		if (i < 10)
+			putchar(i + '0');
+		else if (i >= 10)
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);

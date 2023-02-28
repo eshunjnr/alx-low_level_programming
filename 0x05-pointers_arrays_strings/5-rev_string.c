@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * print_rev - reverses a string
- * @s: string
+ * rev_string - reverses a string
+ * _putchar - print each character
+ * @s: char to check
+ *
  * Description: This will reverse a string
  * Return: 0 is success
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int a = 0, b, c;
 	char d;
